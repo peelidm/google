@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/home/peelid/Pictures/back.jpg);
+     background-position: center;
+     background-size: cover;
+     padding-left: 8%;
+     padding-right: 8%;
+     box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 20%;
+    cursor: pointer;
+}
+.icon{
+    width: 20px;
+    cursor: pointer;
+    margin: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff ;
+    font-size: 12px;
+}
+.row{
+    display: flEx;
+height: 88%;
+align-items: center;
+}
+.col{
+    flex-basis: 70%;
+}
+h1{
+    color: rgb(240, 231, 231);
+    font-size: 100px;
+
+}
+p{
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+}
+button{ width: 180px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgb(12, 12, 12);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px ;
+    padding: 20px 25px;
+    box-sizing: border-box;
+ cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+background-size: cover;
+transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(/home/peelid/Pictures/bank.jpg) ;
+}
+.card2{
+    background-image: url(/home/peelid/Pictures/stock.jpg) ;
+}
+.card3{
+    background-image: url(/home/peelid/Pictures/fund.jpg) ;
+}
+.card4{
+    background-image: url(/home/peelid/Pictures/real1.jpg) ;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    position: relative;
+    color: 	#eeebeb;
+    font-size: 20px;
+}
+p1{
+    position: relative;
+    color: 	#000000;
+    font-size: 15px;
+    line-height: 15px;
+
+}
+
